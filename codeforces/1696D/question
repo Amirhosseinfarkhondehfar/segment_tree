@@ -1,0 +1,11 @@
+A permutation is an array consisting of n distinct integers from 1 to n in arbitrary order. For example, [2,3,1,5,4] is a permutation, but [1,2,2] is not a permutation (2 appears twice in the array) and [1,3,4] is also not a permutation (n=3 but there is 4 in the array).
+
+You are given a permutation of 1,2,…,n, [a1,a2,…,an]. For integers i, j such that 1≤i<j≤n, define mn(i,j) as mink=ijak, and define mx(i,j) as maxk=ijak.
+
+Let us build an undirected graph of n vertices, numbered 1 to n. For every pair of integers 1≤i<j≤n, if mn(i,j)=ai and mx(i,j)=aj both holds, or mn(i,j)=aj and mx(i,j)=ai both holds, add an undirected edge of length 1 between vertices i and j.
+
+In this graph, find the length of the shortest path from vertex 1 to vertex n. We can prove that 1 and n will always be connected via some path, so a shortest path always exists.
+
+
+
+*************https://codeforces.com/contest/1696/problem/D*************
