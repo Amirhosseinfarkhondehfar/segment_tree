@@ -1,0 +1,11 @@
+A triple of points i, j and k on a coordinate line is called beautiful if i<j<k and k−i≤d.
+
+You are given a set of points on a coordinate line, initially empty. You have to process queries of three types:
+
+add a point;
+remove a point;
+calculate the number of beautiful triples consisting of points belonging to the set.
+
+
+***************https://codeforces.com/contest/1701/problem/F****************
+
